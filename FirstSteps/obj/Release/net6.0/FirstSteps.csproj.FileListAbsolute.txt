@@ -1,0 +1,15 @@
+C:\Users\jggru\source\repos\FirstSteps\FirstSteps\bin\Release\net6.0\FirstSteps.exe
+C:\Users\jggru\source\repos\FirstSteps\FirstSteps\bin\Release\net6.0\FirstSteps.deps.json
+C:\Users\jggru\source\repos\FirstSteps\FirstSteps\bin\Release\net6.0\FirstSteps.runtimeconfig.json
+C:\Users\jggru\source\repos\FirstSteps\FirstSteps\bin\Release\net6.0\FirstSteps.dll
+C:\Users\jggru\source\repos\FirstSteps\FirstSteps\bin\Release\net6.0\ref\FirstSteps.dll
+C:\Users\jggru\source\repos\FirstSteps\FirstSteps\bin\Release\net6.0\FirstSteps.pdb
+C:\Users\jggru\source\repos\FirstSteps\FirstSteps\obj\Release\net6.0\FirstSteps.csproj.AssemblyReference.cache
+C:\Users\jggru\source\repos\FirstSteps\FirstSteps\obj\Release\net6.0\FirstSteps.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jggru\source\repos\FirstSteps\FirstSteps\obj\Release\net6.0\FirstSteps.AssemblyInfoInputs.cache
+C:\Users\jggru\source\repos\FirstSteps\FirstSteps\obj\Release\net6.0\FirstSteps.AssemblyInfo.cs
+C:\Users\jggru\source\repos\FirstSteps\FirstSteps\obj\Release\net6.0\FirstSteps.csproj.CoreCompileInputs.cache
+C:\Users\jggru\source\repos\FirstSteps\FirstSteps\obj\Release\net6.0\FirstSteps.dll
+C:\Users\jggru\source\repos\FirstSteps\FirstSteps\obj\Release\net6.0\ref\FirstSteps.dll
+C:\Users\jggru\source\repos\FirstSteps\FirstSteps\obj\Release\net6.0\FirstSteps.pdb
+C:\Users\jggru\source\repos\FirstSteps\FirstSteps\obj\Release\net6.0\FirstSteps.genruntimeconfig.cache
