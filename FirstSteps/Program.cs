@@ -23,3 +23,7 @@ trimmedGreeting = greeting.Trim();
 Console.WriteLine($"[{trimmedGreeting}]");
 
 // Do more with strings: Replace method
+string sayHello = "Hello World!";
+Console.WriteLine(sayHello);
+sayHello = sayHello.Replace("Hello", "Greetings");
+Console.WriteLine(sayHello);
