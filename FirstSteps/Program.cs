@@ -1,4 +1,6 @@
-﻿// Hello World and String interpolation
+﻿// Following along with the Microsoft tutorials for C# at docs.microsoft.com
+
+// Hello World and String interpolation
 Console.WriteLine("Hello, World!");
 string strOne = "World!";
 Console.WriteLine($"Hello, {strOne}");
