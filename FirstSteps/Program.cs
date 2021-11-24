@@ -29,3 +29,16 @@ sayHello = sayHello.Replace("Hello", "Greetings");
 Console.WriteLine(sayHello);
 Console.WriteLine(sayHello.ToUpper());
 Console.WriteLine(sayHello.ToLower());
+
+// Do more with strings: Contains method
+string songLyrics = "You say goodbye, and I say hello";
+Console.WriteLine(songLyrics.Contains("goodbye"));
+Console.WriteLine(songLyrics.Contains("greetings"));
+
+// Challenge 1: Modify the previous example to use StartsWith and EndsWith instead of Contains
+//      Search for "You" or "goodbye" at the beginning of a string.
+Console.WriteLine(songLyrics.StartsWith("You"));
+Console.WriteLine(songLyrics.StartsWith("goodbye"));
+//      Search for "hello" or "goodbye" at the end of a string.
+Console.WriteLine(songLyrics.EndsWith("hello"));
+Console.WriteLine(songLyrics.EndsWith("goodbye"));
