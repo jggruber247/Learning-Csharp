@@ -1,2 +1,2 @@
 # Learning-Csharp
-Following the Microsoft tutorials for C# at docs.microsoft.com
+Following along with the Microsoft tutorials for C# at docs.microsoft.com
