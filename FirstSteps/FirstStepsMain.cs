@@ -63,6 +63,9 @@ public class FirstSteps
         Console.WriteLine("18 * 6 = " + c);
         c = a / b;
         Console.WriteLine("18 / 6 = " + c);
+
+        // Explore order of operations
+
     }
 
 	public static void Main(string[] args)
