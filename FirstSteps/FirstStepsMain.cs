@@ -1,10 +1,10 @@
 ﻿using System;
-// Following along with the Microsoft tutorials for C# at docs.microsoft.com
-public class StringsPractice
+
+public class FirstSteps
 {
-    static void Main()
+	public static void StringsPractice()
     {
-         // Hello World and String interpolation
+        // Hello World and String interpolation
         Console.WriteLine("Hello, World!");
         string strOne = "World!";
         Console.WriteLine($"Hello, {strOne}");
@@ -48,5 +48,28 @@ public class StringsPractice
         //      Search for "hello" or "goodbye" at the end of a string.
         Console.WriteLine(songLyrics.EndsWith("hello"));
         Console.WriteLine(songLyrics.EndsWith("goodbye"));
+    }
+	
+	public static void NumbersPractice()
+	{
+        // Explore integer math
+        int a = 18;
+        int b = 6;
+        int c = a + b;
+        Console.WriteLine("18 + 6 = " + c);
+        c = a - b;
+        Console.WriteLine("18 - 6 = " + c);
+        c = a * b;
+        Console.WriteLine("18 * 6 = " + c);
+        c = a / b;
+        Console.WriteLine("18 / 6 = " + c);
+    }
+
+	public static void Main(string[] args)
+    {
+        Console.WriteLine("<<<Strings Practice>>>");
+        StringsPractice();
+        Console.WriteLine("<<<Numbers Practice>>>");
+        NumbersPractice();
     }
 }
