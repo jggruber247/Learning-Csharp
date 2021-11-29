@@ -65,14 +65,23 @@ public class FirstSteps
         Console.WriteLine("18 / 6 = " + c);
 
         // Explore order of operations
-
+        a = 5;
+        b = 4;
+        c = 2;
+        int d;
+        d = a + b * c;
+        Console.WriteLine("5 + 4 * 2 = " + d);
+        d = (a + b) * c;
+        Console.WriteLine("(5 + 4) * 2 = " + d);
     }
 
 	public static void Main(string[] args)
     {
         Console.WriteLine("<<<Strings Practice>>>");
         StringsPractice();
+        Console.WriteLine();
         Console.WriteLine("<<<Numbers Practice>>>");
         NumbersPractice();
+        Console.WriteLine();
     }
 }
