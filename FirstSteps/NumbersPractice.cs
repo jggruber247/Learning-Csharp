@@ -2,7 +2,7 @@
 
 public class NumbersPractice
 {
-	public NumbersPractice()
+	static void Main() 
 	{
 		// Explore integer math
 		int a = 18;

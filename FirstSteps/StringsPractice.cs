@@ -2,7 +2,7 @@
 // Following along with the Microsoft tutorials for C# at docs.microsoft.com
 public class StringsPractice
 {
-    public StringsPractice()
+    static void Main()
     {
          // Hello World and String interpolation
         Console.WriteLine("Hello, World!");
