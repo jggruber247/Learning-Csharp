@@ -73,6 +73,15 @@ public class FirstSteps
         Console.WriteLine("5 + 4 * 2 = " + d);
         d = (a + b) * c;
         Console.WriteLine("(5 + 4) * 2 = " + d);
+        d = (a + b) - 6 * c + (12 * 4) / 3 + 12;
+        Console.WriteLine("(5 + 4) - 6 * 2 + (12 * 4) / 3 + 12 = " + d);
+        a = 7;
+        c = 3;
+        d = (a + b) / c;
+        Console.WriteLine("(7 + 4) / 3 = " + d);
+
+        // Explore integer precision and limits
+
     }
 
 	public static void Main(string[] args)
