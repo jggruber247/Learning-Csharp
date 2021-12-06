@@ -110,6 +110,14 @@ public class FirstSteps
         Console.WriteLine($"The range of double is {dmin} to {dmax}");
         double third = 1.0 / 3.0;
         Console.WriteLine(third);
+
+        // Challenge 2: Try other calculations with large numbers, small numbers, multiplication, and division using the double type.
+        aa = -4.5;
+        bb = 200;
+        cc = 7.62;
+        dd = 5.56;
+        double ee = (aa + bb) / (cc * dd) - (cc + aa) * bb;
+        Console.WriteLine(ee);
     }
 
 	public static void Main(string[] args)
