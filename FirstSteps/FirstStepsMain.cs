@@ -90,9 +90,26 @@ public class FirstSteps
         Console.WriteLine($"remainder: {e}");
         int max = int.MaxValue;
         int min = int.MinValue;
-        Console.WriteLine($"The range of integers is {min} to {max}");
+        Console.WriteLine($"The range of integer is {min} to {max}");
         int what = max + 3;
         Console.WriteLine($"An example of overflow: {what}");
+
+        // Work with the double type
+        double aa = 5;
+        double bb = 4;
+        double cc = 2;
+        double dd = (aa + bb) / cc;
+        Console.WriteLine(dd);
+        aa = 19;
+        bb = 23;
+        cc = 8;
+        dd = (aa + bb) / cc;
+        Console.WriteLine(dd);
+        double dmax = double.MaxValue;
+        double dmin = double.MinValue;
+        Console.WriteLine($"The range of double is {dmin} to {dmax}");
+        double third = 1.0 / 3.0;
+        Console.WriteLine(third);
     }
 
 	public static void Main(string[] args)
