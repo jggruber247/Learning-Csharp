@@ -118,14 +118,17 @@ public class FirstSteps
         dd = 5.56;
         double ee = (aa + bb) / (cc * dd) - (cc + aa) * bb;
         Console.WriteLine(ee);
+
+        // Work with decimal types
+
     }
 
 	public static void Main(string[] args)
     {
-        Console.WriteLine("<<<Strings Practice>>>");
+        Console.WriteLine("<<< Strings Practice >>>");
         StringsPractice();
         Console.WriteLine();
-        Console.WriteLine("<<<Numbers Practice>>>");
+        Console.WriteLine("<<< Numbers Practice >>>");
         NumbersPractice();
         Console.WriteLine();
     }
