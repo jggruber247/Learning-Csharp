@@ -81,7 +81,13 @@ public class FirstSteps
         Console.WriteLine("(7 + 4) / 3 = " + d);
 
         // Explore integer precision and limits
-
+        a = 7;
+        b = 4;
+        c = 3;
+        d = (a + b) / c;
+        int e = (a + b) % c;
+        Console.WriteLine($"quotient: {d}");
+        Console.WriteLine($"remainder: {e}");
     }
 
 	public static void Main(string[] args)
