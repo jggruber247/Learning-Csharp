@@ -120,7 +120,9 @@ public class FirstSteps
         Console.WriteLine(ee);
 
         // Work with decimal types
-
+        decimal decmin = decimal.MinValue;
+        decimal decmax = decimal.MaxValue;
+        Console.WriteLine($"The range of the decimal type is {decmin} to {decmax}");
     }
 
 	public static void Main(string[] args)
