@@ -123,6 +123,12 @@ public class FirstSteps
         decimal decmin = decimal.MinValue;
         decimal decmax = decimal.MaxValue;
         Console.WriteLine($"The range of the decimal type is {decmin} to {decmax}");
+        double decA = 1.0;
+        double decB = 3.0;
+        Console.WriteLine(decA / decB);
+        decimal decC = 1.0M;
+        decimal decD = 3.0M;
+        Console.WriteLine(decC / decD);
     }
 
 	public static void Main(string[] args)
