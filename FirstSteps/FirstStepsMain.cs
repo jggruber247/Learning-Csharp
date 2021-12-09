@@ -129,9 +129,11 @@ public class FirstSteps
         decimal decC = 1.0M;
         decimal decD = 3.0M;
         Console.WriteLine(decC / decD);
+
+        // Challenge 3: Now that you've seen the different numeric types, write code that calculates the area of a circle whose radius is 2.50 centimeters. 
     }
 
-	public static void Main(string[] args)
+    public static void Main(string[] args)
     {
         Console.WriteLine("<<< Strings Practice >>>");
         StringsPractice();
