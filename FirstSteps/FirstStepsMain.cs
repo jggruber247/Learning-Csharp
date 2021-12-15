@@ -136,6 +136,18 @@ public class FirstSteps
         Console.WriteLine(area);
     }
 
+    public static void BranchesAndLoops()
+    {
+        // Make decisions using the if statement
+        int g = 5;
+        int h = 6;
+        if (g + h > 10) //true
+            Console.WriteLine("The answer is greater than 10.");
+        int f = 3;
+        if (g + f > 10) //false
+            Console.WriteLine("The answer is greater than 10.");
+    }
+
     public static void Main(string[] args)
     {
         Console.WriteLine("<<< Strings Practice >>>");
@@ -143,6 +155,9 @@ public class FirstSteps
         Console.WriteLine();
         Console.WriteLine("<<< Numbers Practice >>>");
         NumbersPractice();
+        Console.WriteLine();
+        Console.WriteLine("<<< Branches and Loops >>>");
+        BranchesAndLoops();
         Console.WriteLine();
     }
 }
