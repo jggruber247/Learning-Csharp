@@ -153,6 +153,26 @@ public class FirstSteps
         else
             Console.WriteLine("The answer is not greater than 10.");
         h = 4;
+        if ((g + h + f > 10) && (g == h)) //and
+        {
+            Console.WriteLine("The answer is greater than 10");
+            Console.WriteLine("And the first number is equal to the second");
+        }
+        else
+        {
+            Console.WriteLine("The answer is not greater than 10");
+            Console.WriteLine("Or the first number is not equal to the second");
+        }
+        if ((g + h + f > 10) || (g == h)) //or
+        {
+            Console.WriteLine("The answer is greater than 10");
+            Console.WriteLine("Or the first number is equal to the second");
+        }
+        else
+        {
+            Console.WriteLine("The answer is not greater than 10");
+            Console.WriteLine("And the first number is not equal to the second");
+        }
     }
 
     public static void Main(string[] args)
