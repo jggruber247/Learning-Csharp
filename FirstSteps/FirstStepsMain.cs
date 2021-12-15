@@ -131,6 +131,9 @@ public class FirstSteps
         Console.WriteLine(decC / decD);
 
         // Challenge 3: Now that you've seen the different numeric types, write code that calculates the area of a circle whose radius is 2.50 centimeters. 
+        double radius = 2.50;
+        double area = Math.PI * radius * radius;
+        Console.WriteLine(area);
     }
 
     public static void Main(string[] args)
