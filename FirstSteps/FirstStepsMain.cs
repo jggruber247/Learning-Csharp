@@ -146,6 +146,13 @@ public class FirstSteps
         int f = 3;
         if (g + f > 10) //false
             Console.WriteLine("The answer is greater than 10.");
+
+        // Make if and else work together
+        if (g + f > 10)
+            Console.WriteLine("The answer is greater than 10.");
+        else
+            Console.WriteLine("The answer is not greater than 10.");
+        h = 4;
     }
 
     public static void Main(string[] args)
