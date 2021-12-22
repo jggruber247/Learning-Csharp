@@ -193,6 +193,23 @@ public class FirstSteps
         {
             Console.WriteLine($"Hello World! The counter is {cnt}");
         }
+
+        // Create nested loops
+        for (int row = 1; row < 11; row++)
+        {
+            Console.WriteLine($"The row is {row}");
+        }
+        for (char column = 'a'; column < 'k'; column++)
+        {
+            Console.WriteLine($"The column is {column}");
+        }
+        for (int row = 1; row < 11; row++)
+        {
+            for (char column = 'a'; column < 'k'; column++)
+            {
+                Console.WriteLine($"The cell is ({row}, {column})");
+            }
+        }
     }
 
     public static void Main(string[] args)
