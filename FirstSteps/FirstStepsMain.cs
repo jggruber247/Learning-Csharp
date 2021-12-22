@@ -210,6 +210,17 @@ public class FirstSteps
                 Console.WriteLine($"The cell is ({row}, {column})");
             }
         }
+
+        // Combine branches and loops
+        int sum = 0;
+        for (int number = 1; number < 21; number++)
+        {
+            if (number % 3 == 0)
+            {
+                sum = sum + number;
+            }
+        }
+        Console.WriteLine($"The sum is {sum}");
     }
 
     public static void Main(string[] args)
